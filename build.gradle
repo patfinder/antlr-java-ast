@@ -22,8 +22,7 @@ apply plugin: 'me.champeau.gradle.antlr4'
 
 antlr4 {
     source = file('src/main/antlr')
-    output = file('build/generated-src/me/tomassetti/pythonast/parser')
-    extraArgs = ['-package', 'me.tomassetti.pythonast.parser']
+    output = file('build/generated-src')
 }
 
 compileJava.dependsOn antlr4
