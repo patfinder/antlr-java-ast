@@ -65,3 +65,8 @@ The original grammar has been obtained from:
 https://github.com/antlr/grammars-v4/tree/master/java8
 
 It is available under the MIT License
+
+## Fork
+
+This project is a fork of https://github.com/ftomassetti/python-ast
+
